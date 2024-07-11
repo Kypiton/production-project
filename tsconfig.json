@@ -8,7 +8,11 @@
     "outDir": "./dist/",
     "target": "ES6",
     "module": "ESNext",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
   },
   "ts-node": {
     "compilerOptions": {
